@@ -7,11 +7,14 @@ import ComboBox from './components/ComboBox.jsx'
 import TableMui from './components/TableMui.jsx'
 import CustomizedTables from './components/CustomizedTable.jsx'
 import CardList from './components/CardList.jsx'
+import Table2MUI from './components/Table2MUI.jsx'
+import Register from './Register.jsx'
+import ToastProvider from './components/ToastProvider.jsx'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    {/* <App />
     <br />
     <ButtonMui />
     <br />
@@ -22,5 +25,9 @@ createRoot(document.getElementById('root')).render(
     <CustomizedTables />
     <br />
     <CardList />
+    <br />
+    <Table2MUI /> */}
+    <ToastProvider />
+    <Register />
   </StrictMode>,
 )
